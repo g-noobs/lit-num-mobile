@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
+        tools:targetApi="31">
+        <activity
+            android:name=".LearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LessonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MCQLearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ESSAYQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IDQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TFQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ToFQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MCQQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VideoLearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageLearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SampleCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AchievementsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VocabularyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CultureNArtsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlphabetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

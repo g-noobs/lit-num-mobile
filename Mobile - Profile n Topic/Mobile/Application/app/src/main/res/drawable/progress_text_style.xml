@@ -1,0 +1,5 @@
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/transparent"
+    android:gravity="center">
+    <paint android:textSize="24sp" android:textColor="#FFFFFF" android:textStyle="bold" />
+</bitmap>

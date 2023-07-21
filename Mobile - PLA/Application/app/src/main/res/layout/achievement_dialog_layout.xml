@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA3D3848"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/inter_bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="You got an\nachievement!"
+        android:textColor="@color/button_dropshadow"
+        android:textSize="39sp" />
+
+    <ImageView
+        android:id="@+id/imgReward"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/inter_bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="#"
+        android:textColor="#63BF07"
+        android:textSize="128sp" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="248dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button_container_style"
+        android:fontFamily="@font/inter_bold"
+        android:text="Back to Home"
+        android:textAllCaps="false"
+        android:textColor="@color/progress_textColor"
+        android:textSize="24sp" />
+
+</LinearLayout>

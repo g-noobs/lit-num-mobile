@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="63dp"
+    android:layout_height="71dp"
+    android:orientation="horizontal"
+    android:background="@drawable/lesson_alphabet_letter_container_style"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="63dp"
+        android:layout_height="71dp"
+        android:text="Aa"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"/>
+</LinearLayout>

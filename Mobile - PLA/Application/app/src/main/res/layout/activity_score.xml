@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ScoreActivity">
+
+    <TextView
+        android:id="@+id/lblMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="162dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="You got a score of"
+        android:textColor="@color/button_dropshadow"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="277dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="#"
+        android:textColor="#63BF07"
+        android:textSize="128sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblMessage" />
+
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="124dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_container_style"
+        android:fontFamily="@font/inter_bold"
+        android:text="RETRY"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblScore" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="124dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="166dp"
+        android:background="@drawable/button_container_style"
+        android:fontFamily="@font/inter_bold"
+        android:text="HOME"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblScore" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

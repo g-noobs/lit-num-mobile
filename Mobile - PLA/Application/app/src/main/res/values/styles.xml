@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextView_InterRegular">
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="TextView_InterMedium">
+        <item name="android:fontFamily">@font/inter_medium</item>
+    </style>
+
+    <style name="TextView_InterSemiBold">
+        <item name="android:fontFamily">@font/inter_semibold</item>
+    </style>
+
+    <style name="TextView_InterBold">
+        <item name="android:fontFamily">@font/inter_bold</item>
+    </style>
+</resources>

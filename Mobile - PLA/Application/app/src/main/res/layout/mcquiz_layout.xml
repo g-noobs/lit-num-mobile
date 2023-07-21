@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="249dp"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
+            android:text="#"
+            android:textColor="@color/textColor"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/lblQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/inter_regular"
+            android:text="TextView"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnChoiceA"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@drawable/button_container_style"
+        android:fontFamily="@font/inter_bold"
+        android:text="Choice A"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnChoiceB"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_container_style"
+        android:fontFamily="@font/inter_bold"
+        android:text="Choice B"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnChoiceC"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@drawable/button_container_style"
+        android:fontFamily="@font/inter_bold"
+        android:text="Choice C"
+        android:textSize="20sp" />
+
+</LinearLayout>

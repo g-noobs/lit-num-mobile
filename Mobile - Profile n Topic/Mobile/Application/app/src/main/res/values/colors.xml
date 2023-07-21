@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F4F0EA</color>
+    <color name="button_base">#FFAA28</color>
+    <color name="button_dropshadow">#E58A00</color>
+    <color name="progress_textColor">#E55C00</color>
+    <color name="texthint">#74707B</color>
+    <color name="textfield">#DBD7DB</color>
+    <color name="textColor">#3D3848</color>
+    <color name="textButton">#803300</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple_200"></color>
+    <color name="purple_500"></color>
+    <color name="purple_700"></color>
+    <color name="teal_200"></color>
+    <color name="teal_700"></color>
+    <color name="black"></color>
+</resources>
